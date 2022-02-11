@@ -1,6 +1,6 @@
 {
   "name": "delay-set-timeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "call setTimeout() with min/max delay",
   "main": "delay-set-timeout.js",
   "scripts": {

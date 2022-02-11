@@ -1,5 +1,5 @@
 
-// global, for html page
+//global variable, for html page, refer tpsvr @ npm.
 delay_set_timeout = require("../delay-set-timeout.js");
 
 module.exports = {
@@ -119,4 +119,4 @@ module.exports = {
 if (typeof showResult !== "function") showResult = function (text) { console.log(text); }
 
 //for mocha
-if (typeof describe === "function") describe('mocha-test', function () { for (var i in module.exports) { it(i, module.exports[i]); } });
+if (typeof describe === "function") describe('delay_set_timeout', function () { for (var i in module.exports) { it(i, module.exports[i]).timeout(5000); } });
